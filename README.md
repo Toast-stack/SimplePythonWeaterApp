@@ -31,5 +31,19 @@ A Python-based command-line app for retrieving real-time weather data for any ci
 
 Open the `weather_app.py` file and replace the `API_KEY` with your OpenWeatherMap API key:
 
-```python
-API_KEY = "your_actual_api_key"
+    ```python
+    API_KEY = "your_actual_api_key"
+
+## Usage
+
+Run the application:
+
+    ```bash
+    python weather_app.py
+
+## Future Enhancements
+
+- Multi-day weather forecasts.
+- Graphical user interface (GUI).
+- Data visualizations using Matplotlib or Plotly.
+- Geolocation-based weather updates.

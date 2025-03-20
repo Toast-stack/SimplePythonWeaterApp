@@ -15,7 +15,7 @@ A Python-based command-line app for retrieving real-time weather data for any ci
 ## Requirements
 
 - **Python 3.7+**
-- **API Key**: Get one from [OpenWeatherMap](https://openweathermap.org/api).
-- **Dependencies**: Install with:
+- **Dependencies**:  
+  Install the required libraries using:
   ```bash
   pip install requests

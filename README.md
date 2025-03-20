@@ -33,6 +33,3 @@ Open the `weather_app.py` file and replace the `API_KEY` with your OpenWeatherMa
 
 ```python
 API_KEY = "your_actual_api_key"
-
-
-   

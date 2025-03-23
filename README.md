@@ -1,49 +1,57 @@
-# Real-Time Weather Application
+# Weather API CLI Tool
 
-A Python-based command-line app for retrieving real-time weather data for any city using the OpenWeatherMap API.
-
----
+This is a simple command-line tool that retrieves and displays weather information for a given city using the OpenWeatherMap API.
 
 ## Features
 
-- Retrieves current weather details: temperature, humidity, wind speed, and conditions.
-- Handles invalid city names and API issues gracefully.
-- Scalable design for future enhancements (e.g., multi-day forecasts, GUI).
-
----
+- Fetches real-time weather data based on the city name.
+- Displays:
+  - Temperature (in Fahrenheit by default)
+  - Weather description
+  - Humidity percentage
+  - Wind speed
+- Error handling for invalid city names or API request failures.
 
 ## Requirements
 
-- **Python 3.7+**
-- **Dependencies**:  
-  Install the required libraries using:
-  ```bash
-  pip install requests
+- Python 3.x
+- Requests library
 
-## How to Run
+### Install dependencies:
 
-1. Clone the repository and navigate to the project folder:
-   ```bash
-   git clone <repository_url>
-   cd WeatherApp
-
-## Replace the API Key
-
-Open the `weather_app.py` file and replace the `API_KEY` with your OpenWeatherMap API key:
-
-    ```python
-    API_KEY = "your_actual_api_key"
+```bash
+pip install requests
+```
 
 ## Usage
 
-Run the application:
+1. Run the script:
 
-    ```bash
-    python weather_app.py
+   ```bash
+   python WeatherAPICalls.py
+   ```
 
-## Future Enhancements
+2. Enter a city name when prompted.
+3. The weather details will be displayed.
+4. Type `exit` to close the application.
 
-- Multi-day weather forecasts.
-- Graphical user interface (GUI).
-- Data visualizations using Matplotlib or Plotly.
-- Geolocation-based weather updates.
+## Example Output
+
+```
+Welcome to the Weather App!
+Enter a city name (or type 'exit' to quit): London
+
+Weather in London:
+Temperature: 50.3 F
+Description: Clear sky
+Humidity: 65%
+Wind Speed: 3.5 m/s
+```
+
+## API Key
+
+This script requires an API key from OpenWeatherMap. Replace the `API_KEY` variable in the script with your own key.
+
+## License
+
+This project is licensed under the MIT License.

@@ -84,3 +84,6 @@ When you enter a valid city name, a bar chart is generated, displaying:
 Both projects require an API Key from OpenWeatherMap. Follow these steps:
 1. Sign up at [OpenWeatherMap](https://openweathermap.org/) and generate your API Key.
 2. Replace the `API_KEY` variable in both scripts with your key.
+
+## License
+This project is licensed under the MIT License. You are free to use, modify, and distribute this software.
